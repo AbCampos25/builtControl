@@ -1,0 +1,498 @@
+a.activo {
+  background-color: #0e1320;
+  border-radius: 5px;
+}
+
+.bg-trans-dark {
+  background: rgba(0, 0, 0, 0.4);
+  transition: all;
+  transition-duration: 0.2s;
+}
+.bg-trans-dark:hover {
+  background: transparent;
+}
+
+.bg-trans-light {
+  background: rgba(250, 250, 250, 0.4);
+  transition: all;
+  transition-duration: 0.5s;
+}
+.bg-trans-light:hover {
+  background: transparent;
+}
+
+.cover {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cover2 {
+  height: 100%;
+  width: 100%;
+}
+
+.message-erro {
+  margin-top: 50px;
+  color: rgb(209, 39, 39);
+}
+
+.message-sucesso {
+  margin-top: 50px;
+  color: rgb(40, 189, 40);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  text-decoration: none !important;
+}
+
+body {
+  background-color: rgb(250, 250, 250);
+}
+
+section {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.esquerda {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  background-color: #2d4366;
+  width: 200px;
+  height: 695px;
+  align-items: center;
+  padding: 10px 30px 0;
+  box-shadow: 0 0 5px 0 rgb(56, 55, 55);
+  border-right: 1px solid rgb(250, 250, 250);
+}
+.esquerda .superior {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: start;
+  align-items: center;
+}
+.esquerda .superior a {
+  margin-top: 10px;
+  font-size: 14pt;
+}
+.esquerda .superior a:hover {
+  color: #0e1320;
+  transition: all;
+  transition-duration: 0.5s;
+}
+.esquerda .superior .menu-lateral {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: start;
+  width: 100%;
+  align-items: center;
+}
+.esquerda .superior .menu-lateral a {
+  margin: 5px;
+  color: rgb(250, 250, 250);
+  padding: 5px;
+  font-size: 12pt;
+}
+.esquerda .superior .menu-lateral a:first-child {
+  margin: 5px;
+  font-size: 12pt;
+}
+.esquerda .superior .menu-lateral a:hover {
+  color: rgb(250, 250, 250);
+  background-color: #0e1320;
+  border-radius: 5px;
+  transition: all;
+  transition-duration: 0.5s;
+}
+.esquerda .superior a {
+  color: rgb(250, 250, 250);
+  float: left;
+  margin-bottom: 30px;
+}
+.esquerda .superior img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.esquerda .superior i {
+  font-size: 1.7rem;
+  color: rgb(250, 250, 250);
+}
+.esquerda .superior i:hover {
+  color: #0e1320;
+  transition: all;
+  transition-duration: 0.5s;
+}
+.esquerda .inferior {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: start;
+  align-items: center;
+}
+.esquerda .inferior a {
+  color: rgb(250, 250, 250);
+  margin: 5px 0;
+  font-size: 13pt;
+}
+.esquerda .inferior a:hover {
+  color: #0e1320;
+  transition: all;
+  transition-duration: 0.5s;
+}
+.esquerda .inferior a i {
+  font-size: 1.5rem;
+  color: rgb(250, 250, 250);
+}
+.esquerda .inferior a i:hover {
+  color: #0e1320;
+  transition: all;
+  transition-duration: 0.5s;
+}
+.esquerda .inferior a:last-child {
+  margin-top: 30px;
+  color: rgb(20, 20, 20);
+}
+
+.direita {
+  width: 1100px;
+}
+.direita header {
+  color: #2d4366;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 20px 0;
+}
+.direita header a {
+  font-size: 14pt;
+  color: rgb(20, 20, 20);
+  float: left;
+}
+.direita nav {
+  color: #4e6e8d;
+  text-align: center;
+}
+.direita nav a {
+  color: #4e6e8d;
+  font-size: 14pt;
+  padding: 5px;
+  font-weight: bolder;
+}
+.direita nav a:first-child {
+  border-right: 2px solid;
+}
+.direita nav a:last-child {
+  border-left: 2px solid;
+}
+.direita form {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding: 30px 30px 40px 30px;
+  width: 750px;
+  margin: 0 auto;
+  background-color: #2d4366;
+}
+.direita form div textarea {
+  width: 100%;
+  height: 100px;
+  color: rgb(250, 250, 250);
+  display: block;
+  color: #0e1320;
+  padding: 5px 10px;
+}
+.direita form label {
+  margin-top: 10px;
+  color: rgb(250, 250, 250);
+  margin-top: 20px;
+  display: block;
+}
+.direita form input {
+  padding: 2px 10px;
+}
+.direita form div.cat label, .direita form div.cat input {
+  display: inline;
+}
+.direita form button {
+  display: block;
+  width: 50%;
+  margin-top: 45px;
+  color: #2d4366;
+  font-weight: bold;
+  background-color: rgb(250, 250, 250);
+  float: right;
+  outline: none;
+  border: none;
+  line-height: 30px;
+  box-shadow: 0 0 5px 0 rgb(56, 55, 55);
+}
+.direita .painel-exibicao {
+  padding: 5px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 30px 0;
+}
+.direita .painel-exibicao .imagem {
+  width: 600px;
+  height: 360px;
+  margin: 20px 0;
+}
+.direita .painel-exibicao .imagem .cover2 h2 {
+  text-align: center;
+  padding-top: 150px;
+  color: rgb(250, 250, 250);
+}
+.direita .painel-exibicao .detalhes {
+  margin: 20px 0 0 40px;
+  width: 300px;
+  height: 300px;
+  border-left: 1px solid rgb(20, 20, 20);
+}
+.direita .painel-exibicao .detalhes .relatorio-list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin: 10px;
+  border-bottom: 1px solid #0e1320;
+}
+.direita .painel-exibicao .detalhes .relatorio-list relatorio {
+  margin: 10px;
+}
+.direita .painel-exibicao .detalhes .relatorio-list .config i {
+  color: #2d4366;
+}
+.direita .painel-exibicao .detalhes h2 {
+  font-size: 12pt;
+  color: #2d4366;
+  background-color: rgba(185, 181, 181, 0.2);
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin: 10px;
+  margin-top: 0;
+  padding: 10px;
+  text-align: center;
+}
+.direita .painel-exibicao .detalhes h2::after {
+  content: "...";
+}
+.direita .painel-exibicao .detalhes h4 {
+  margin: 20px;
+  font-size: 18px;
+  font-weight: 100 !important;
+  color: rgb(20, 20, 20);
+}
+.direita .painel-exibicao .detalhes h4 span {
+  color: gray;
+}
+.direita .usuario-card {
+  width: 350px;
+  margin: 10px auto;
+  background-color: black;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 0 rgb(56, 55, 55);
+}
+.direita .usuario-card i {
+  font-size: 120px;
+  color: rgb(250, 250, 250);
+  margin: 20px auto;
+}
+.direita .usuario-card img {
+  width: 120px;
+  height: 120px;
+  margin: 30px auto 10px auto;
+  border-radius: 50%;
+}
+.direita .usuario-card button {
+  display: block;
+  margin: 0 auto;
+  outline: none;
+  color: #2d4366;
+  background: rgb(250, 250, 250);
+  padding: 5px 10px;
+  font-size: 13pt;
+  border: none;
+}
+.direita .usuario-card a i {
+  font-size: 12pt;
+  color: #4e6e8d;
+}
+.direita .usuario-card .nome-email {
+  border-top: 3px solid rgb(250, 250, 250);
+  background: #8ca2c1;
+  margin: 20px auto 30px auto;
+  border-radius: 0 0 5px 5px;
+}
+.direita .fluxo-direito {
+  overflow: auto;
+  width: 95%;
+  height: 500px;
+}
+.direita .foto-obra {
+  width: 100%;
+}
+.direita .foto-obra img {
+  width: 100%;
+  height: 390px;
+  opacity: 0.7;
+}
+.direita .detalhes-empresa {
+  width: 95%;
+  padding: 10px 15px;
+  color: #0e1320;
+  background-color: #2d4366;
+  border-top: 6px solid #8ca2c1;
+}
+.direita .detalhes-empresa h2 {
+  font-size: 22pt;
+  text-transform: uppercase;
+}
+.direita .detalhes-empresa h2 span {
+  color: rgb(250, 250, 250);
+}
+.direita .detalhes-obra {
+  background-color: #2d4366;
+  padding: 10px;
+  border-top: 2px solid rgb(250, 250, 250);
+  border-bottom: 2px solid #2d4366;
+}
+.direita .detalhes-obra h4 {
+  display: inline-block;
+  text-transform: uppercase;
+  color: #0e1320;
+  font-size: 14pt;
+  margin: 10px;
+}
+.direita .detalhes-obra h4 span {
+  color: rgb(250, 250, 250);
+}
+.direita .nav-view {
+  width: 95%;
+  text-align: right;
+}
+.direita .nav-view a {
+  letter-spacing: 2px;
+  padding: 10px;
+  background-color: rgba(185, 181, 181, 0.2);
+  color: #2d4366;
+  font-weight: bold;
+  margin: 5px;
+}
+.direita table.empresa tr td {
+  width: 250px;
+}
+.direita table {
+  text-align: center;
+  background-color: rgba(185, 181, 181, 0.2);
+  width: 100%;
+  align-content: center;
+  height: 400px;
+  overflow: auto;
+  margin: 30px 0;
+}
+.direita table #pr {
+  color: rgb(250, 250, 250);
+  font-weight: bold;
+  background-color: #8ca2c1;
+}
+.direita table #pr td a {
+  color: rgb(250, 250, 250);
+  background-color: #8ca2c1;
+  padding: 2px;
+  margin: 0px 5px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.direita table #pr td:last-child a {
+  color: #2d4366;
+  background-color: rgb(250, 250, 250);
+}
+.direita table tr {
+  padding-left: 30px;
+  line-height: 30px;
+  display: block;
+}
+.direita table tr td {
+  width: 150px;
+  text-align: center;
+  padding: 5px;
+}
+.direita table tr td a {
+  background-color: rgb(250, 250, 250);
+  color: rgb(20, 20, 20);
+  padding: 2px;
+  margin: 0px 5px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.direita table tr td i {
+  color: #2d4366;
+  background-color: rgb(250, 250, 250);
+}
+.direita .lista-user {
+  background-color: rgba(185, 181, 181, 0.2);
+  width: 600px;
+  margin: 0 auto;
+  height: 400px;
+  overflow: auto;
+}
+.direita .lista-user a {
+  padding: 10px 20px;
+  color: #2d4366;
+  background: #8ca2c1;
+  font-size: 14pt;
+  margin-bottom: 10px;
+  display: block;
+  text-align: end;
+}
+.direita .lista-user .usuario {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  border-bottom: 1px solid #0e1320;
+  margin: 10px 30px;
+  padding: 10px;
+}
+.direita .lista-user .usuario i {
+  font-size: 50px;
+  color: #8ca2c1;
+}
+.direita .lista-user .usuario img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.direita .lista-user .usuario .nome-email {
+  align-self: flex-end;
+  margin-left: 30px;
+}
+.direita .lista-user .usuario .nome-email h2 {
+  font-size: 16pt;
+  font-weight: bold;
+  color: #8ca2c1;
+}
+.direita .rodape {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin: 5px 0;
+  border-left: 2px solid #2d4366;
+  padding: 15px 0;
+}
+.direita .rodape a {
+  font-weight: bold;
+  text-transform: lowercase;
+  letter-spacing: 3px;
+  color: #4e6e8d;
+  margin: 0 30px 0 5px;
+}/*# sourceMappingURL=obras.css.map */

@@ -1,0 +1,113 @@
+a.activo {
+  background-color: #0e1320;
+  border-radius: 5px;
+}
+
+.bg-trans-dark {
+  background: rgba(0, 0, 0, 0.4);
+  transition: all;
+  transition-duration: 0.2s;
+}
+.bg-trans-dark:hover {
+  background: transparent;
+}
+
+.bg-trans-light {
+  background: rgba(250, 250, 250, 0.4);
+  transition: all;
+  transition-duration: 0.5s;
+}
+.bg-trans-light:hover {
+  background: transparent;
+}
+
+.cover {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cover2 {
+  height: 100%;
+  width: 100%;
+}
+
+.message-erro {
+  margin-top: 50px;
+  color: rgb(209, 39, 39);
+}
+
+.message-sucesso {
+  margin-top: 50px;
+  color: rgb(40, 189, 40);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  text-decoration: none !important;
+}
+
+body {
+  background-color: rgb(250, 250, 250);
+}
+
+a {
+  margin: 5px auto;
+  color: #2d4366;
+  font-weight: bold;
+  display: block;
+  text-align: end;
+}
+
+h1 {
+  text-align: center;
+  background-color: rgba(185, 181, 181, 0.2);
+  padding: 10px;
+  margin: 10px auto;
+}
+
+h1, .imagens-obra, .pontos {
+  width: 800px;
+}
+
+.detalhes-obra {
+  text-align: center;
+  margin: 20px 20px 40px 20px;
+}
+.detalhes-obra h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+}
+
+.imagens-obra {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  text-align: center;
+  margin: 20px auto;
+}
+.imagens-obra .imagem {
+  display: inline-block;
+  width: 300px;
+  height: 200px;
+  margin: 5px;
+}
+.imagens-obra .imagem img {
+  width: 300px;
+  height: 200px;
+}
+
+.pontos {
+  margin: 30px auto;
+}
+.pontos h2 {
+  text-transform: uppercase;
+}
+.pontos h4 {
+  font-family: arial;
+  margin: 10px 20px;
+  font-size: 14pt;
+  font-weight: 400;
+}/*# sourceMappingURL=relatorio.css.map */

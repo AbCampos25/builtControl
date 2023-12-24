@@ -1,0 +1,104 @@
+a.activo {
+  background-color: #0e1320;
+  border-radius: 5px;
+}
+
+.bg-trans-dark {
+  background: rgba(0, 0, 0, 0.4);
+  transition: all;
+  transition-duration: 0.2s;
+}
+.bg-trans-dark:hover {
+  background: transparent;
+}
+
+.bg-trans-light {
+  background: rgba(250, 250, 250, 0.4);
+  transition: all;
+  transition-duration: 0.5s;
+}
+.bg-trans-light:hover {
+  background: transparent;
+}
+
+.cover {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cover2 {
+  height: 100%;
+  width: 100%;
+}
+
+.message-erro {
+  margin-top: 50px;
+  color: rgb(209, 39, 39);
+}
+
+.message-sucesso {
+  margin-top: 50px;
+  color: rgb(40, 189, 40);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  text-decoration: none !important;
+}
+
+body {
+  background-color: rgb(250, 250, 250);
+}
+
+header {
+  font-size: 1.5rem;
+  width: 400px;
+  margin: 0 auto;
+  color: rgb(250, 250, 250);
+  background-color: #2d4366;
+  text-align: center;
+  padding: 20px;
+  border-radius: 0 0 10px 10px;
+}
+
+form {
+  width: 400px;
+  color: rgb(250, 250, 250);
+  margin: 60px auto;
+  padding: 30px 10px;
+  background-color: #2d4366;
+  text-align: center;
+  border-radius: 10px;
+}
+form input {
+  display: block;
+  margin: 20px auto;
+  padding: 0 15px;
+  outline: none;
+  line-height: 30px;
+  color: rgb(250, 250, 250);
+  width: 250px;
+  border: 1px solid rgb(250, 250, 250);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background-color: transparent;
+}
+form input::-moz-placeholder {
+  text-align: center;
+}
+form input::placeholder {
+  text-align: center;
+}
+form button {
+  outline: none;
+  color: #2d4366;
+  border: none;
+  line-height: 35px;
+  background-color: rgb(250, 250, 250);
+  width: 200px;
+  margin-bottom: 20px;
+}/*# sourceMappingURL=login.css.map */

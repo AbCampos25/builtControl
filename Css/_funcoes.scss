@@ -1,0 +1,41 @@
+@mixin flexbox2($direction, $wrap, $justify){
+    display: flex;
+    flex-flow: $direction $wrap;
+    justify-content: $justify;
+}
+@mixin flexBoxRow($justify){
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: $justify;
+}
+@mixin flexBoxRowReverse($justify){
+    display: flex;
+    flex-flow: row-reverse wrap;
+    justify-content: $justify;
+}
+@mixin flexBoxColumn($justify){
+    display:flex;
+    flex-flow: column nowrap;
+    justify-content: $justify;
+}
+
+@mixin flexBoxJutify($justify){
+    display: flex;
+    justify-content: $justify;
+}
+@mixin hoverBlack(){
+    &:hover{
+        color: $color5;
+        background-color: $color1;
+        border-radius: 5px;
+        transition: all;
+        transition-duration: 0.5s;
+    }
+}
+@mixin hoverBlack2(){
+    &:hover{
+        color: $color1;
+        transition: all;
+        transition-duration: 0.5s;
+    }
+}

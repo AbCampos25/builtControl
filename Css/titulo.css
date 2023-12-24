@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+}
+
+a {
+  margin: 10px 20px;
+  color: #2d4366;
+  font-weight: bold;
+  display: block;
+  text-align: end;
+}
+
+.titulo-cadastro {
+  margin: 10px;
+  padding: 10px;
+}
+.titulo-cadastro .insignia {
+  margin-top: 10px;
+  text-align: center;
+}
+.titulo-cadastro .insignia img {
+  width: 80px;
+  height: 80px;
+}
+.titulo-cadastro .carimbo {
+  margin: 30px 0 30px 80px;
+}
+.titulo-cadastro .carimbo span {
+  display: block;
+  width: 300px;
+  padding: 10px;
+  border-top: 1px solid rgb(30, 30, 30);
+  text-align: center;
+  margin-top: 50px;
+}
+.titulo-cadastro .carimbo h3 {
+  width: 300px;
+  text-align: center;
+}
+.titulo-cadastro .paragrafo {
+  margin: 20px 80px;
+}
+.titulo-cadastro .paragrafo p {
+  text-align: justify;
+  font-size: 14pt;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+.titulo-cadastro .paragrafo p span {
+  font-weight: bold;
+}
+.titulo-cadastro .paragrafo h3 {
+  font-weight: 400;
+  text-align: left;
+}
+.titulo-cadastro h1 {
+  text-align: center;
+  font-size: 2rem;
+}
+.titulo-cadastro h2 {
+  text-align: center;
+  font-weight: 400;
+}
+.titulo-cadastro h3 {
+  font-weight: 400;
+  margin-top: 20px;
+  text-align: center;
+}
+.titulo-cadastro h5 {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 14pt;
+  margin-top: 5px;
+}/*# sourceMappingURL=titulo.css.map */

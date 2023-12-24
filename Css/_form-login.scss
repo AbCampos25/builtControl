@@ -1,0 +1,36 @@
+form{
+    width: 400px;
+    color: $color5;
+    margin: 60px auto;
+    padding: 30px 10px;
+    background-color: $color2;
+    text-align: center;
+    border-radius: 10px;
+    input{
+        display: block;
+        margin: 20px auto;
+        padding:0 15px;
+        outline: none;
+        line-height: 30px;
+        color: $color5;
+        width: 250px;
+        border: 1px solid $color5;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        background-color: transparent;
+        &::placeholder{
+            text-align: center;
+        }
+
+    }
+    button{
+        outline: none;
+        color: $color2;
+        border: none;
+        line-height: 35px;
+        background-color: $color5;
+        width: 200px;
+        margin-bottom: 20px;
+    }
+}

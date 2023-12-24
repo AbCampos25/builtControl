@@ -1,0 +1,61 @@
+@import './variaveis';
+@import './clases';
+@import './funcoes';
+@import './tudo';
+
+a{
+    margin: 5px auto;
+    color: $color2;
+    font-weight: bold;
+    display: block;
+    text-align: end;
+}
+h1{
+    text-align: center;
+    background-color: $color7 ;
+    padding: 10px;
+    margin: 10px auto;
+}
+h1, .imagens-obra, .pontos{
+    width: 800px;
+}
+
+.detalhes-obra{
+    text-align: center;
+    margin: 20px 20px 40px 20px;
+    h2{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 200;
+        
+    }
+}
+
+.imagens-obra{
+    @include flexBoxRow(center);
+    text-align: center;
+    margin: 20px auto;
+    .imagem{
+        display: inline-block;
+        width: 300px;
+        height: 200px;
+        margin: 5px;
+        img{
+            width: 300px;
+            height: 200px;
+        }
+    }
+}
+
+.pontos{
+    margin: 30px auto;
+    h2{
+        text-transform: uppercase;
+    }
+    h4{
+        font-family: arial;
+        margin: 10px 20px;
+        font-size: 14pt;
+        font-weight: 400;
+    }
+    
+}
